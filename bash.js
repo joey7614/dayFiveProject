@@ -13,5 +13,5 @@ process.stdin.on("data", (data) => {
     default:
       process.stdout.write("You typed: " + cmd);
   }
-  process.stdout.write("\nhelloooo > ");
+  process.stdout.write("\nprompt > ");
 });
